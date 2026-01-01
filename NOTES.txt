@@ -1,0 +1,25 @@
+React is a javascript library 
+React lets you build user interfaces out of individual pieces called components
+Components are reusable javascript code 
+JSX: syntax extension of javascript used by react 
+Javascript XML 
+write html like code in js file
+React utilizes a virtual DOM 
+V Dom: Lightweight version of Real dom , only apply the changes to the real dom instead of rerendering it completely 
+Reduces rendering performance overhead
+
+
+NODE MODULES:
+contains libraries and packages 
+
+public:
+public assets , fonts images and videos , not bundled during final output
+
+
+ReactDOM.createRoot(document.getElementById("root"))
+
+create a root for rendering 
+
+
+<Header></Header> ---> <Header/>
+
