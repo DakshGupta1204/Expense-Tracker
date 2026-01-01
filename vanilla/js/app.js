@@ -31,7 +31,7 @@ function addTransaction(e){
     addTransactionDOM(transaction);
     updateValues();
     updateLocalStorage();
-    
+
     textInput.value = "";
     amountInput.value = "";
 

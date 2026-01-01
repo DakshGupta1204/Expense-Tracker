@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: $font-main;
+    background-color: $background-color;
+    margin: 0;
+}
+
+header{
+    background-color: $primary-color;
+    color: white;
+    padding: $spacing*2;
+    text-align: center;
+}

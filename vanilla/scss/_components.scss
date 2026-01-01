@@ -1,0 +1,43 @@
+.money{
+    &.plus{
+        color: $success-color;
+    }
+
+    &.minus{
+        color: $error-color;
+    }
+}
+
+.list{
+    list-style: none;
+    padding: 0;
+
+    li{
+        background: $background-color;
+        padding: $spacing;
+        margin: $spacing 0;
+        display: flex;
+        justify-content: space-between;
+        border-right: 5px solid;
+
+        &.plus{
+            border-color: $success-color;
+        }
+
+        &.minus{
+            border-color: $error-color;
+        }
+    }
+}
+
+button {
+    width: 100%;
+    padding: $spacing;
+    background: $primary-color;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: $spacing;
+    margin-bottom: $spacing;
+}
